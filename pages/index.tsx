@@ -6,15 +6,9 @@ const StyledPage = styled.div`
 `;
 
 export function Index() {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.styled-components file.
-   */
   return (
     <StyledPage>
       <div className="wrapper">
-        {/* <img src="img.jpg" width="500" height="600"/> */}
         <div className="container">
           <div id="welcome">
             <h1>
