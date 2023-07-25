@@ -5,7 +5,8 @@ export default defineConfig({
   e2e: {
     ...nxE2EPreset(__dirname),
     baseUrl: 'http://localhost:4200',
-    video: false
+    video: false,
+    supportFile: false
   }
 });
 

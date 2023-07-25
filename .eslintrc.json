@@ -1,7 +1,7 @@
 {
   "extends": ["plugin:@nx/react-typescript", "next", "next/core-web-vitals"],
   "root": true,
-  "ignorePatterns": ["!**/*", ".next/**/*"],
+  "ignorePatterns": ["!**/*", ".next/**/*", "dist/**/*"],
   "plugins": ["@nx", "jsx-a11y"],
   "overrides": [
     {
