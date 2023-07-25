@@ -1,0 +1,27 @@
+{
+  "extends": ["plugin:@nx/react-typescript", "next", "next/core-web-vitals"],
+  "root": true,
+  "ignorePatterns": ["!**/*", ".next/**/*", "dist/**/*"],
+  "plugins": ["@nx", "jsx-a11y"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["plugin:@nx/typescript"],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nx/javascript"],
+      "rules": {}
+    }
+  ],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  }
+}
